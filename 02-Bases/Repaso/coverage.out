@@ -1,0 +1,21 @@
+mode: set
+app/calculator/calculator.go:19.37,24.2 1 1
+app/calculator/calculator.go:35.68,37.24 1 1
+app/calculator/calculator.go:37.24,40.3 2 1
+app/calculator/calculator.go:43.2,43.22 1 1
+app/calculator/calculator.go:43.22,46.3 2 0
+app/calculator/calculator.go:48.2,48.12 1 1
+app/calculator/calculator.go:48.12,51.3 2 0
+app/calculator/calculator.go:53.2,58.8 3 1
+app/switcher/switcher.go:5.10,7.2 1 0
+app/switcher/switcher.go:9.10,11.2 1 0
+app/switcher/switcher.go:13.10,15.2 1 0
+app/switcher/switcher.go:17.16,19.2 1 0
+app/switcher/switcher.go:21.27,22.20 1 1
+app/switcher/switcher.go:22.20,24.3 1 1
+app/switcher/switcher.go:27.40,28.14 1 1
+app/switcher/switcher.go:29.11,30.9 1 1
+app/switcher/switcher.go:31.11,32.9 1 0
+app/switcher/switcher.go:33.11,34.9 1 0
+app/switcher/switcher.go:35.10,36.9 1 0
+app/switcher/switcher.go:38.2,38.8 1 1
