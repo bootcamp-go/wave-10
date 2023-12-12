@@ -1,0 +1,11 @@
+[
+    {"id": 1, "title": "Forrest Gump", "genre": "Drama", "year": 1994},
+    {"id": 2, "title": "Inception", "genre": "Action", "year": 2010},
+    {"id": 3, "title": "The Matrix", "genre": "Action", "year": 1999},
+    {"id": 4, "title": "The Lord of the Rings: The Fellowship of the Ring", "genre": "Adventure", "year": 2001},
+    {"id": 5, "title": "The Lord of the Rings: The Two Towers", "genre": "Adventure", "year": 2002},
+    {"id": 6, "title": "Goodfellas", "genre": "Biography", "year": 1990},
+    {"id": 7, "title": "Star Wars: Episode V - The Empire Strikes Back", "genre": "Action", "year": 1980},
+    {"id": 8, "title": "One Flew Over the Cuckoo's Nest", "genre": "Drama", "year": 1975},
+    {"id": 9, "title": "Seven Samurai", "genre": "Adventure", "year": 1954}
+]
