@@ -1,0 +1,102 @@
+definitions:
+  handlers.BodyRequest:
+    properties:
+      name:
+        type: string
+      price:
+        type: number
+    type: object
+host: localhost:8080
+info:
+  contact: {}
+  description: This is a rest api server for items.
+  title: Items API
+  version: "1"
+paths:
+  /items:
+    get:
+      description: get all items
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Show all items
+      tags:
+      - items
+    post:
+      consumes:
+      - application/json
+      description: save an item
+      parameters:
+      - description: Item Body
+        in: body
+        name: body
+        required: true
+        schema:
+          $ref: '#/definitions/handlers.BodyRequest'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Save an item
+      tags:
+      - items
+  /items/{id}:
+    get:
+      description: get an item
+      parameters:
+      - description: Item ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties: true
+            type: object
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties: true
+            type: object
+        "404":
+          description: Not Found
+          schema:
+            additionalProperties: true
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties: true
+            type: object
+      summary: Get an item
+      tags:
+      - items
+swagger: "2.0"

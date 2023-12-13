@@ -1,0 +1,17 @@
+request
+|
+|
+Middleware-01
+|
+|
+|
+--- c.Next()
+    |
+    |
+    |
+    Handler-01
+----
+|
+|
+"I'm a dummy"
+.
